@@ -18,14 +18,13 @@ public class OrcWarrior extends Orc implements Warrior{
 
 	@Override
 	public void changeHealth() {
-		// TODO Auto-generated method stub
-		Warrior.super.changeHealth();
+		super.setHealth(health + 120);
 	}
 
 	@Override
 	public void changeMana() {
 		// TODO Auto-generated method stub
-		Warrior.super.changeMana();
+		super.setMana(mana + 0);
 	}
 
 	@Override

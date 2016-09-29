@@ -1,0 +1,40 @@
+package com.ourchars;
+
+import com.app.Weapons.Weapon;
+import com.interfaces.Ranger;
+import com.parents.Halfling;
+
+public class HalflingRanger extends Halfling implements Ranger{
+
+	public HalflingRanger() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public HalflingRanger(int health, int mana, String name, Weapon weapon) {
+		super(health, mana, name, weapon);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+		Ranger.super.changeHealth();
+	}
+
+	@Override
+	public void changeMana() {
+		// TODO Auto-generated method stub
+		Ranger.super.changeMana();
+	}
+
+	@Override
+	public void setWeapon(Weapon weapon) {
+		// TODO Auto-generated method stub
+		super.setWeapon(Weapon.BOW);
+	}
+
+	
+	
+
+}

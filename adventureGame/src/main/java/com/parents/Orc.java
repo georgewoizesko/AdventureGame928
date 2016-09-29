@@ -17,13 +17,13 @@ public class Orc extends CharacterClass{
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
-		super.setHealth(health);
+		super.setHealth(health + 150);
 	}
 
 	@Override
 	public void setMana(int mana) {
 		// TODO Auto-generated method stub
-		super.setMana(mana);
+		super.setMana(mana + 20);
 	}
 
 	@Override

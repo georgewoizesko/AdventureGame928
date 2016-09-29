@@ -2,11 +2,22 @@ package com.app;
 
 import java.util.Scanner;
 
+import com.ourchars.HumanMage;
+
 public class App {
 	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
+		HumanMage ourHumanMage = new HumanMage();
+		
+		ourHumanMage = ourHumanMage.makeHumanMage();
+		
+		System.out.println(ourHumanMage.getWeapon());
+		System.out.println(ourHumanMage.getHealth());			
+		System.out.println(ourHumanMage.getMana());
+		System.out.println(ourHumanMage.getName());
 		
 		boolean userInputCorrect = true;
 		

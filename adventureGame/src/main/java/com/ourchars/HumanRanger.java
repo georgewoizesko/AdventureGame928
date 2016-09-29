@@ -18,14 +18,12 @@ public class HumanRanger extends Human implements Ranger{
 
 	@Override
 	public void changeHealth() {
-		// TODO Auto-generated method stub
-		Ranger.super.changeHealth();
+		super.setHealth(health + 30);
 	}
 
 	@Override
 	public void changeMana() {
-		// TODO Auto-generated method stub
-		Ranger.super.changeMana();
+		super.setMana(mana + 10);
 	}
 
 	@Override

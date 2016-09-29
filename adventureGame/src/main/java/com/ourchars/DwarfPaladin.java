@@ -18,14 +18,13 @@ public class DwarfPaladin extends Dwarf implements Paladin{
 
 	@Override
 	public void changeHealth() {
-		// TODO Auto-generated method stub
-		Paladin.super.changeHealth();
+		super.setHealth(health + 100);
 	}
 
 	@Override
 	public void changeMana() {
 		// TODO Auto-generated method stub
-		Paladin.super.changeMana();
+		super.setMana(mana + 20);
 	}
 
 	@Override

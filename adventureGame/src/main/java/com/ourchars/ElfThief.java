@@ -18,14 +18,12 @@ public class ElfThief extends Elf implements Thief{
 
 	@Override
 	public void changeHealth() {
-		// TODO Auto-generated method stub
-		Thief.super.changeHealth();
+		super.setHealth(health + 20);
 	}
 
 	@Override
 	public void changeMana() {
-		// TODO Auto-generated method stub
-		Thief.super.changeMana();
+		super.setMana(mana + 20);
 	}
 
 	@Override

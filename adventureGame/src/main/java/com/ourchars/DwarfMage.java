@@ -5,12 +5,7 @@ import com.interfaces.Mage;
 import com.parents.Dwarf;
 
 public class DwarfMage extends Dwarf implements Mage{
-	
-	
-	//public DwarfMage(Weapons mageWeapon) {
-		//super();
-		//this.mageWeapon = mageWeapon;
-	//}
+
 
 	public DwarfMage() {
 		super();
@@ -24,14 +19,12 @@ public class DwarfMage extends Dwarf implements Mage{
 
 	@Override
 	public void changeHealth() {
-		// TODO Auto-generated method stub
-		Mage.super.changeHealth();
+		super.setHealth(health +0);
 	}
 
 	@Override
 	public void changeMana() {
-		// TODO Auto-generated method stub
-		Mage.super.changeMana();
+		super.setMana(mana + 200);
 	}
 
 	@Override

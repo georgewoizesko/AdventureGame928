@@ -18,14 +18,12 @@ public class OrcMage extends Orc implements Mage{
 
 	@Override
 	public void changeHealth() {
-		// TODO Auto-generated method stub
-		Mage.super.changeHealth();
+		super.setHealth(health +0);
 	}
 
 	@Override
 	public void changeMana() {
-		// TODO Auto-generated method stub
-		Mage.super.changeMana();
+		super.setMana(mana + 200);
 	}
 
 	@Override
