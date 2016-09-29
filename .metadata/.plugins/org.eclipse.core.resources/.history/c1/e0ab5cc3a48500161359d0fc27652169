@@ -1,0 +1,21 @@
+package com.parents;
+
+import java.util.Scanner;
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Welcome to Adventure Game\n"
+				+"Would you like to play as a\n"
+				+"1. Human Paladin\n"
+				+"2. Elf Mage\n"
+				+"3. Dwarf Ranger\n"
+				+"4. Orc Warrior\n"
+				+"5. Halfling Thief"
+				);
+	}
+
+}

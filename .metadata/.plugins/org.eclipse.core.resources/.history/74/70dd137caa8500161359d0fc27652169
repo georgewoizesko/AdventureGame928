@@ -1,0 +1,27 @@
+package com.parents;
+
+public class Human extends CharacterClass{
+	
+	
+
+	@Override
+	public void setHealth(int health) {
+		// TODO Auto-generated method stub
+		super.setHealth(health);
+	}
+
+	@Override
+	public void setMana(int mana) {
+		// TODO Auto-generated method stub
+		super.setMana(mana);
+	}
+
+	@Override
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		super.setName(name);
+	}
+	
+	
+
+}

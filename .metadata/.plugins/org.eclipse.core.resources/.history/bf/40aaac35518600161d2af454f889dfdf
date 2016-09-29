@@ -1,0 +1,38 @@
+package com.ourchars;
+
+import com.interfaces.Ranger;
+import com.parents.Elf;
+
+public class ElfRanger extends Elf implements Ranger{
+
+	public ElfRanger() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ElfRanger(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+		Ranger.super.changeHealth();
+	}
+
+	@Override
+	public void changeMana() {
+		// TODO Auto-generated method stub
+		Ranger.super.changeMana();
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+		Ranger.super.weaponType();
+	}
+	
+	
+
+}

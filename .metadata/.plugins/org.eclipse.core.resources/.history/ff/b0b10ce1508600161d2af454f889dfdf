@@ -1,0 +1,38 @@
+package com.ourchars;
+
+import com.interfaces.Thief;
+import com.parents.Dwarf;
+
+public class DwarfThief extends Dwarf implements Thief{
+
+	public DwarfThief() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public DwarfThief(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+		Thief.super.changeHealth();
+	}
+
+	@Override
+	public void changeMana() {
+		// TODO Auto-generated method stub
+		Thief.super.changeMana();
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+		Thief.super.weaponType();
+	}
+	
+	
+
+}

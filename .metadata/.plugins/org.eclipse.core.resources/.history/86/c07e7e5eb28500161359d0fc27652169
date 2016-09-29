@@ -1,0 +1,20 @@
+package com.ourchars;
+
+import com.interfaces.Paladin;
+import com.parents.Human;
+
+public class HumanPaladin extends Human implements Paladin {
+
+	public HumanPaladin() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public HumanPaladin(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

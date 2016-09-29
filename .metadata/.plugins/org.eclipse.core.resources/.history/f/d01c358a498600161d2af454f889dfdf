@@ -1,0 +1,62 @@
+package com.parents;
+
+public class CharacterClass {
+	
+	protected int health = 0;	
+	protected int mana = 0;
+	protected String name = null;
+	
+	
+	
+	public CharacterClass() {
+		super();
+	}
+
+
+
+	public CharacterClass(int health, int mana, String name) {
+		super();
+		this.health = health;
+		this.mana = mana;
+		this.name = name;
+	}
+
+
+
+	public int getHealth() {
+		return health;
+	}
+
+
+
+	public void setHealth(int health) {
+		this.health = health;
+	}
+
+
+
+	public int getMana() {
+		return mana;
+	}
+
+
+
+	public void setMana(int mana) {
+		this.mana = mana;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+
+}

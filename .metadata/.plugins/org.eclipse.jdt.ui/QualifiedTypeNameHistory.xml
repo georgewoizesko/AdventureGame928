@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.parents.Human"/>
+<fullyQualifiedTypeName name="com.parents.Orc"/>
+<fullyQualifiedTypeName name="com.parents.Halfling"/>
+<fullyQualifiedTypeName name="com.parents.Elf"/>
+<fullyQualifiedTypeName name="com.interfaces.Mage"/>
+<fullyQualifiedTypeName name="com.interfaces.Paladin"/>
+<fullyQualifiedTypeName name="com.interfaces.Ranger"/>
+<fullyQualifiedTypeName name="com.interfaces.Thief"/>
+<fullyQualifiedTypeName name="com.parents.Dwarf"/>
+<fullyQualifiedTypeName name="com.interfaces.Warrior"/>
+</qualifiedTypeNameHistroy>

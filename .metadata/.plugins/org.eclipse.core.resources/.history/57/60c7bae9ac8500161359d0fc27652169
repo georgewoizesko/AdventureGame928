@@ -1,0 +1,37 @@
+package com.parents;
+
+public class Halfling extends CharacterClass{
+
+	public Halfling() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Halfling(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void setHealth(int health) {
+		// TODO Auto-generated method stub
+		super.setHealth(health);
+	}
+
+	@Override
+	public void setMana(int mana) {
+		// TODO Auto-generated method stub
+		super.setMana(mana);
+	}
+
+	@Override
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		super.setName(name);
+	}
+	
+	
+
+	
+	
+}

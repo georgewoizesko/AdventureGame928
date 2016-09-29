@@ -1,0 +1,38 @@
+package com.ourchars;
+
+import com.interfaces.Mage;
+import com.parents.Dwarf;
+
+public class DwarfMage extends Dwarf implements Mage{
+
+	public DwarfMage() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public DwarfMage(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+		Mage.super.changeHealth();
+	}
+
+	@Override
+	public void changeMana() {
+		// TODO Auto-generated method stub
+		Mage.super.changeMana();
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+		Mage.super.weaponType();
+	}
+	
+	
+
+}

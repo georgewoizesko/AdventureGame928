@@ -1,0 +1,25 @@
+package com.interfaces;
+
+public interface Thief extends ClassInterface{
+
+	@Override
+	default void changeHealth() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	default void changeMana() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	default void weaponType() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

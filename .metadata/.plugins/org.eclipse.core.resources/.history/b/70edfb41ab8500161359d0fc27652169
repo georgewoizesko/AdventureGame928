@@ -1,0 +1,26 @@
+package com.interfaces;
+
+public interface paladin extends ClassInterface{
+
+	@Override
+	default void changeHealth() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	default void changeMana() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	default void weaponType() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+}

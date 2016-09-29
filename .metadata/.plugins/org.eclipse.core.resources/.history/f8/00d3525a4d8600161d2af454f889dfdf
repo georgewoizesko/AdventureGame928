@@ -1,0 +1,35 @@
+package com.parents;
+
+public class Elf extends CharacterClass {
+
+	public Elf() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Elf(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void setHealth(int health) {
+		// TODO Auto-generated method stub
+		super.setHealth(health + 70);
+	}
+
+	@Override
+	public void setMana(int mana) {
+		// TODO Auto-generated method stub
+		super.setMana(mana + 80);
+	}
+
+	@Override
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		super.setName("Evos");
+	}
+
+	
+	
+}

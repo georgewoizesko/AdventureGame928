@@ -1,0 +1,43 @@
+package com.app;
+
+import java.util.Scanner;
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		boolean userInputCorrect = true;
+		
+		do {
+			System.out.println("Welcome to Adventure Game\n\n" + "Would you like to play as a\n" + "1. Human Paladin\n"
+					+ "2. Elf Mage\n" + "3. Dwarf Ranger\n" + "4. Orc Warrior\n" + "5. Halfling Thief");
+			String userInput = sc.nextLine();
+			switch (userInput) {
+			case "1":
+				System.out.println("You chose to play as a Human Paladin!");
+				//Call to humanPaladin methods here
+				break;
+			case "2":
+				//Call to elfMage methods here
+				break;
+			case "3":
+				//Call to dwarfRanger methods here
+				break;
+			case "4":
+				//Call to orcWarrior methods here
+				break;
+			case "5":
+				//Call to halflingThief methods here
+				break;
+			default:
+				userInputCorrect = true;
+				System.out.println("You entered an invalid choice\n\n"
+						+ "1, 2, 3, 4, 5 are your choices.\n\n Please try again.\n\n\n");
+				break;
+			}
+		} while (userInputCorrect);
+	}
+
+}

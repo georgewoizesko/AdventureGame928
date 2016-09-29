@@ -1,0 +1,7 @@
+package com.parents;
+
+public class Dwarf extends CharacterClass{
+	
+	
+
+}

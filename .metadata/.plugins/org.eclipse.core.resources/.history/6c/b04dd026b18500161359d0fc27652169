@@ -1,0 +1,7 @@
+package com.ourchars;
+
+public class HumanPaladin extends Human implements Paladin {
+	
+	
+
+}

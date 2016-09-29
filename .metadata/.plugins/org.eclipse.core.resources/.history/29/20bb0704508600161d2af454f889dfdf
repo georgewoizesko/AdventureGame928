@@ -1,0 +1,28 @@
+package com.ourchars;
+
+import com.interfaces.Mage;
+import com.parents.Human;
+
+public class HumanMage extends Human implements Mage {
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+		Mage.super.changeHealth();
+	}
+
+	@Override
+	public void changeMana() {
+		// TODO Auto-generated method stub
+		Mage.super.changeMana();
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+		Mage.super.weaponType();
+	}
+
+
+
+}

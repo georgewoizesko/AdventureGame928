@@ -1,0 +1,38 @@
+package com.ourchars;
+
+import com.interfaces.Paladin;
+import com.parents.Elf;
+
+public class ElfPaladin extends Elf implements Paladin{
+
+	public ElfPaladin() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ElfPaladin(int health, int mana, String name) {
+		super(health, mana, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+		Paladin.super.changeHealth();
+	}
+
+	@Override
+	public void changeMana() {
+		// TODO Auto-generated method stub
+		Paladin.super.changeMana();
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+		Paladin.super.weaponType();
+	}
+	
+	
+
+}
